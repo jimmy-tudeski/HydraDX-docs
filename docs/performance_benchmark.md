@@ -5,7 +5,7 @@ title: Performance benchmark
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-You can make sure that your machine satisfies the [required technical specifications](/node_setup#00-required-technical-specifications) by running a performance benchmark. To do so, follow the steps below:
+Upewnij się że Twoj komputer spełnia [niezbędne wymagania techniczne](/node_setup#00-required-technical-specifications) wykonując testy wydajnościowe, w następujących krokach:
 
 ```bash
 # Fetch source of the latest stable release
@@ -27,8 +27,7 @@ $ apt install clang
 # Run the benchmark
 $ ./scripts/check_performance.sh
 ```
-
-After the benchmark executes you should see an output similar to the following:
+Wyniki testów wydajnościowych powinny wyglądać podobnie do tych:
 
 ```
          Pallet          |   Time comparison (µs)    |  diff* (µs)   |   diff* (%)    |            |   Rerun
@@ -42,6 +41,6 @@ Notes:
 - if diff deviates by -10% or more for some of the pallets, your machine might not be suitable to run a node
 ```
 
-You can see the difference in the performance between your machine and the minimum required setup in the column **diff* (%)**. If all three values in this column are positive, your machine should be suitable to run a HydraDX validator node. If any of the values is below *-10 %*, we do not recommend running a HydraDX node.
+Różnice w wydajności między Twoim komputerem a maszyną referencyjną wyrażone są w kolumnie **didd* (%)**. Jeśli wszystkie trzy wartości są dodatnie, Twój komputer spełnia minimalne wymagania aby zostać nodem walidacyjnym. Jeżeli któryś z parametrów jest poniżej *-10 %*, Twój komputer może być niewystarczający oraz uruchomienia noda na tej maszynie nie jest wskazane. 
 
-Join us at Discord if you would like to discuss your benchmark results, our community is always happy to help.
+Dołącz do naszego Discorda jeżeli chcesz porozmawiać o wynikach Twoich testów, nasza społeczność jest gotowa do pomocy. 

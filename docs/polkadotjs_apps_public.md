@@ -5,30 +5,30 @@ title: Connect to a public node
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-There are two public RPC nodes which are maintained by HydraDX and our partners. You can use these nodes for interacting with Snakenet. You can directly connect to a public node with Polkadot/apps by clicking on the links below:
+Są dwa publiczne nody RPC które są utrzymywane przez HydraDX oraz partnerów. Możesz ich używać aby wchodzić w interakcję z Snakenet. Aby bezpośrednio połączyć się z publicznym nodem za pomocą Polkadot/apps użyj poniższych linków: 
 
-* [RPC node hosted by HydraDX](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/explorer)
-* [RPC node hosted by Intergalactic](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-02.snakenet.hydradx.io#/explorer)
+* [RPC node hostowany przez HydraDX](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/explorer)
+* [RPC node hostowany przez Intergalactic](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-02.snakenet.hydradx.io#/explorer)
 
 
-## Connect manually to an RPC node {#connect-manually-to-an-rpc-node}
+## Manualne połączenie do noda RPC {#connect-manually-to-an-rpc-node} 
 
-To access a public RPC node manually, open the [Polkadot/apps](https://polkadot.js.org/apps/) and click in the upper left corner to change the network.
+Aby manualnie połączyć się do publicznego noda RPC, otwórz [Polkadot/apps](https://polkadot.js.org/apps/) oraz użyj przycisku w lewym górnym rogu aby zmienić sieć: 
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/PolkadotJS-APPS-1.png')} />
 </div>
 
-Click on **LIVE NETWORKS** and select **HydraDX**.
+Kliknij na  **LIVE NETWORKS** ai wybierz **HydraDX**.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/public-1.png')} />
 </div>
 
-Select one of the nodes and click **Switch**.
+Wybierz node i kliknij na **Switch**.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/public-2.png')} />
 </div>
 
-Now you should be connected to the selected public RPC node.
+Teraz powinieś być połączony z wybranym nodem RPC.
