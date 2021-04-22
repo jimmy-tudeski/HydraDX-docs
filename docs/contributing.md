@@ -120,11 +120,11 @@ funkcja podkreślMnie() {
 Do wyrównania kolumn można użyć dwukropków.
 
 
-| Tabele      | Są                  | Fajne    |
-| --------    | : -----------:      | -----:   |
-| kol 3 to    | wyrównane do prawej | \ $ 1600 |
-| kol 2 to    | wyśrodkowany        | \ $ 12   |
-| paski zebry | są schludne         | \ $ 1    |
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
 
 Każda komórka nagłówka musi zawierać co najmniej 3 myślniki. Zewnętrzne rury (|) są opcjonalne i nie musisz ładnie ustawiać surowej linii Markdown. Możesz także użyć wbudowanej usługi Markdown.
 
