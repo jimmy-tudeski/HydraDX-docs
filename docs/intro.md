@@ -4,6 +4,6 @@ title: Intro
 slug: /
 ---
 
-Welcome to HydraDX docs. 
+Witamy Cie w sekcji dokumentacji HydraDX
 
-Hopefully, we can make this place a great resource for learning about HydraDX together.
+Mamy nadzieję, że to miejsce będzie idealnym miejsce do nauki o HydraDX i funkcjonowaniu sieci i zapraszamy do czynnego udziału w rozwoju protokołu HydraDX
