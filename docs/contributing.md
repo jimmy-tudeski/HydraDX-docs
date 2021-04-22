@@ -3,13 +3,13 @@ id: contributing
 title: Writing Docs
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+Możesz pisać zawartość przy użyciu składni [Markdown GitHub](https://github.github.com/gfm/).
 
-## Markdown Syntax
+## Składnia  Markdown
 
-To serve as an example page when styling markdown based Docusaurus sites.
+Służy jako przykładowa strona podczas stylizacji witryn opartych o Docusaurus.
 
-## Headers
+## Nagłówki
 
 # H1 - Create the best documentation
 
@@ -25,13 +25,13 @@ To serve as an example page when styling markdown based Docusaurus sites.
 
 ---
 
-## Emphasis
+## Wyszczególnienia
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Wyszczególnienia kursywą za pomocą *gwiazdek* or _podkreślników_.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Pogrubienia za pomocą **podwójnej gwiazdki** or __dwóch podkreślników__.
 
-Combined emphasis with **asterisks and _underscores_**.
+Połączone wyszczególnienie **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
