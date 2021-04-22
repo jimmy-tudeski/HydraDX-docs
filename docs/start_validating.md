@@ -5,7 +5,7 @@ title: Start validating
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Po [ skonfigurowaniu węzła HDX ] (/ node_setup) należy powiązać tokeny HDX i ustawić klucze walidatora, zanim będzie można rozpocząć walidację.
+Po [skonfigurowaniu węzła HDX] (/ node_setup) należy powiązać tokeny HDX i ustawić klucze walidatora, zanim będzie można rozpocząć walidację.
 
 :::Ostrzeżenie
 
