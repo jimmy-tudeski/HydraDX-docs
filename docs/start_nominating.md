@@ -9,7 +9,7 @@ Zostając nominatorem, stawiasz część swoich tokenów HDX, aby pomóc zabezpi
 
 Podczas nominowania, nominatorzy wyznaczają swój udział wybranemu przez siebie walidatorowi. W ten sposób nominatorzy wybierają aktywny zestaw walidatorów i otrzymują nagrody za swój udział. Ilość nagród, które otrzymasz jako nominator, zależy od procentu prowizji od wybranego walidatora - im wyższa prowizja od nagrody walidatora, tym mniej nagród otrzymasz za swoją stawkę.
 
-:::Ostrzeżenie
+:::Ostrzeżenie!!!
 
 Nominowanie jest bardziej przystępną formą udziału w procesie obstawiania, ale wiąże się również z pewnym ryzykiem. Jeśli wyznaczony przez Ciebie walidator zachowuje się niewłaściwie (np. Nie utrzymuje wymaganego czasu pracy), może nastąpić cięcie "slashing", które może doprowadzić do częściowej mimowolnej utraty postawionych środków. Zdecydowanie zalecamy przeprowadzenie należytej staranności przed wyznaczeniem walidatora.
 
