@@ -120,7 +120,7 @@ funkcja podkreślMnie() {
 Do wyrównania kolumn można użyć dwukropków.
 
 
-| Tables        |      Are      |   Cool |
+| Tabele        |      Są       |  Fajne |
 | ------------- | :-----------: | -----: |
 | col 3 is      | right-aligned | \$1600 |
 | col 2 is      |   centered    |   \$12 |
