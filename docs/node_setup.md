@@ -16,7 +16,7 @@ Uruchomienie noda walidatora wymaga pewnych umiejętności technicznych potrzebn
 
 Do uruchomienia noda walidatora HydraDX wymagane są co najmniej następujące specyfikacje techniczne:
 
-* OSystem Operacyjny: Ubuntu 20.04
+* System Operacyjny: Ubuntu 20.04
 * Procesor: Intel Core i7-7700K @ 4.5Ghz (or equivalent single core performance)
 * Pamięć ram: 64GB RAM
 * Przestrzeń dyskowa: NVMe SSD with a capacity of at least 200GB (the data footprint will grow over time)
