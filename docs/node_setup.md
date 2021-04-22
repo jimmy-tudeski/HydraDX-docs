@@ -88,7 +88,7 @@ $ {ŚCIEŻKA_DO_TWOJEGO_PLIKU_BINARNEGO} purge-chain --chain lerna
 
 :::
 
-Oprócz ścieżki do pliku binarnego (patrz powyżej), musisz określić nazwę noda, która będzie używana do identyfikowania twojego noda w telemetrii [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) gdzie możesz znaleźć listę wszystkich nodów działających w HydraDX Snakenet.
+Oprócz ścieżki do pliku binarnego (patrz powyżej), musisz określić nazwę noda, która będzie używana do identyfikowania twojego noda w telemetrii [Telemetria](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) gdzie możesz znaleźć listę wszystkich nodów działających w HydraDX Snakenet.
 
 ## 05 Uruchamianie z systemd
 Aby upewnić się, że node jest automatycznie uruchamiany po ponownym uruchomieniu komputera, zalecamy uruchomienie noda HydraDX jako procesu systemowego. Aby to zrobić, utwórz następujący plik i wstaw zawartość, zastępując zmienne wskazane jako `{ZMIENNA}`:
@@ -133,4 +133,4 @@ $ journalctl -f -u hydradx-validator.service
 
 Twój węzeł HydraDX jest teraz skonfigurowany i działa!
 
-Możesz teraz wykonać ostatnie kroki, aby rozpocząć walidację. [start validating](/start_validating).
+Możesz teraz wykonać ostatnie kroki, aby rozpocząć walidację. [rozpocznij walidację](/start_validating).
