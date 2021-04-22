@@ -133,4 +133,4 @@ $ journalctl -f -u hydradx-validator.service
 
 Twój węzeł HydraDX jest teraz skonfigurowany i działa!
 
-Możesz teraz wykonać ostatnie kroki, aby rozpocząć walidację. [rozpocznij walidację](/start_validating).
+Możesz teraz wykonać ostatnie kroki, aby rozpocząć walidację. [rozpocznij walidację](/start_validating)
