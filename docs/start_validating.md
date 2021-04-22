@@ -42,7 +42,7 @@ Po kliknięciu przycisku Skrytka powinieneś zobaczyć preferencje wiązania z c
 * ** wartość związana **: ilość kleju HDX, który łączysz. Nie wiąż wszystkich HDX, które posiadasz - zamiast tego zostaw część na pokrycie późniejszych opłat transakcyjnych.
 * ** miejsce płatności **: konto, na które zostaną wysłane nagrody potwierdzające.
 
-:::Ostrzeżenie
+:::Ostrzeżenie!!!
 
 Nie wiąż wszystkich dostępnych tokenów HDX. Zostaw niewielką rezerwę na pokrycie opłat transakcyjnych. Jeśli połączysz wszystkie posiadane tokeny HDX, możesz nie być w stanie podpisać transakcji w celu rozpoczęcia procesu walidacji.
 
