@@ -47,7 +47,7 @@ $ ntpq -p
 ## 02 Dostosuj ustawienia zapory sieciowej
 Port '30333' jest używany do połączeń peer-to-peer z innymi nodami. Jeśli używasz noda jako walidator, zalecamy skonfigurowanie zapory i skonfigurowanie tak, aby udostępniać tylko ten port dla połączeń zdalnych.
 
-Jeśli nie używasz noda jako walidator, możesz również rozważyć udostępnienie portu '9944' (dla połączeń RPC websocket z zewnętrznymi aplikacjami) i portu '9933' (dla żądań HTTP do Twojego noda). Możesz użyć portu 9944, aby połączyć się ze swoim nodem za pomocą [Polkadot/apps](/polkadotjs_apps_local).
+Jeśli nie używasz noda jako walidator, możesz również rozważyć udostępnienie portu '9944' (dla połączeń RPC websocket z zewnętrznymi aplikacjami) i portu '9933' (dla żądań HTTP do Twojego noda). Możesz użyć portu 9944, aby połączyć się ze swoim nodem za pomocą [Polkadot/apps](/polkadotjs_apps_local)
 
 ## 03 Pobierz lub utwórz plik binarny
 Możesz pobrać plik binarny naszego najnowszego wydania na github [github](https://github.com/galacticcouncil/HydraDX-node/releases).
