@@ -9,7 +9,7 @@ Ta sekcja przeprowadzi Cię przez proces konfigurowania i uruchamiania noda Hydr
 
 :::Uwaga
 
-Uruchomienie noda walidatora wymaga pewnych umiejętności technicznych potrzebnych do prawidłowej konfiguracji noda i zagwarantowania jego ciągłej pracy. Jeśli nie jesteś pewien, czy dasz sobie radę, zalecamy zamiast tego stakowanie swoich tokenów HDX [nominate your HDX](/start_nominating) u doświadczonego walidatora. W ten sposób chronisz siebie i nominatorów przed przypadkową utratą środków.
+Uruchomienie noda walidatora wymaga pewnych umiejętności technicznych potrzebnych do prawidłowej konfiguracji noda i zagwarantowania jego ciągłej pracy. Jeśli nie jesteś pewien, czy dasz sobie radę, zalecamy zamiast tego stakowanie swoich tokenów HDX [nominuj_swoje_HDX](/start_nominating) u doświadczonego walidatora. W ten sposób chronisz siebie i nominatorów przed przypadkową utratą środków.
 :::
 
 ## 00 Wymagane specyfikacje techniczne
@@ -23,7 +23,7 @@ Do uruchomienia noda walidatora HydraDX wymagane są co najmniej następujące s
 
 :::Uwaga
 
-Są to minimalne wymagania techniczne, które zostały zweryfikowane przez zespół. Chcesz się upewnić, że Twój komputer ma wystarczające zasoby do uruchomienia węzła? Przeprowadź test porównawczy wydajności[performance benchmark](/performance_benchmark).
+Są to minimalne wymagania techniczne, które zostały zweryfikowane przez zespół. Chcesz się upewnić, że Twój komputer ma wystarczające zasoby do uruchomienia węzła? Przeprowadź test porównawczy wydajności [test wydajności](/performance_benchmark).
 
 :::
 
