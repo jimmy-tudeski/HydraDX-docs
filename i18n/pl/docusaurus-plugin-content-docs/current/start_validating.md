@@ -5,11 +5,11 @@ title: Start validating
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Po [skonfigurowaniu węzła HDX](/ node_setup) należy powiązać tokeny HDX i ustawić klucze walidatora, zanim będzie można rozpocząć walidację.
+Po [skonfigurowaniu węzła HDX](/node_setup) należy powiązać tokeny HDX i ustawić klucze walidatora, zanim będzie można rozpocząć walidację.
 
 :::warning
 
-Uruchomienie węzła walidatora wymaga pewnych umiejętności technicznych potrzebnych do prawidłowej konfiguracji węzła i zagwarantowania jego czasu pracy. Wymagamy również, aby walidatory zawsze uruchamiały węzeł przy użyciu najnowszej stabilnej wersji. Jeśli nie jesteś pewien, co tutaj robisz, zalecamy zamiast tego [nominować swoje HDX](/ start_nominating) doświadczonemu walidatorowi. W ten sposób chronisz siebie i swoich nominatorów przed mimowolną utratą środków.
+Uruchomienie węzła walidatora wymaga pewnych umiejętności technicznych potrzebnych do prawidłowej konfiguracji węzła i zagwarantowania jego czasu pracy. Wymagamy również, aby walidatory zawsze uruchamiały węzeł przy użyciu najnowszej stabilnej wersji. Jeśli nie jesteś pewien, co tutaj robisz, zalecamy zamiast tego [nominować swoje HDX](/start_nominating) doświadczonemu walidatorowi. W ten sposób chronisz siebie i swoich nominatorów przed mimowolną utratą środków.
 :::
 
 ## 01 Wiązanie / Blokowanie tokenów HDX
@@ -18,11 +18,11 @@ Aby wziąć udział w sieci jako węzeł walidujący, musisz połączyć pewną 
 
 :::note
 
-Czy nadal jesteś w posiadaniu tokenów xHDX, które kupiłeś podczas wydarzenia Balancer LBP? Przed kontynuowaniem musisz najpierw [odebrać swój HDX](/ claim).
+Czy nadal jesteś w posiadaniu tokenów xHDX, które kupiłeś podczas wydarzenia Balancer LBP? Przed kontynuowaniem musisz najpierw [odebrać swój HDX](/claim).
 
 :::
 
-Aby połączyć HDX, otwórz Polkadot / apps i połącz się z jednym z [publicznych węzłów HydraDX RPC](/ polkadotjs_apps_public). Upewnij się, że widzisz [saldo] swojego konta (https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts).
+Aby połączyć HDX, otwórz Polkadot / apps i połącz się z jednym z [publicznych węzłów HydraDX RPC](/polkadotjs_apps_public). Upewnij się, że widzisz [saldo] swojego konta (https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts).
 
 :::warning
 

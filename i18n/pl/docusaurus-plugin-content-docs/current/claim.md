@@ -102,5 +102,5 @@ Po zakończeniu procesu roszczenia tokeny HDX pozostaną zablokowane w Twoim por
 
 Tokeny xHDX (które wykorzystałeś do odebrania HDX) pozostaną zablokowane w Twoim portfelu ERC-20 na zawsze, co oznacza, że możesz je ukryć w swoim portfelu (lub zachować je jako widoczne jako odznaka wczesnej adaptacji).
 
-Chcesz wykorzystać swoje tokeny HDX do pracy i pomóc poprawić bezpieczeństwo sieci HydraDX? Możesz wziąć udział w naszej zachęcającej sieci testowej o nazwie ** Snakenet **, obstawiając swój HDX. Jeśli jesteś zainteresowany, możesz kontynuować, zapoznając się z [procesem obstawiania](/ staking), po którym możesz zdecydować się na udział jako [walidator](/ start_validating) lub [nominator](/ start_nominating).
+Chcesz wykorzystać swoje tokeny HDX do pracy i pomóc poprawić bezpieczeństwo sieci HydraDX? Możesz wziąć udział w naszej zachęcającej sieci testowej o nazwie ** Snakenet **, obstawiając swój HDX. Jeśli jesteś zainteresowany, możesz kontynuować, zapoznając się z [procesem obstawiania](/staking), po którym możesz zdecydować się na udział jako [walidator](/start_validating) lub [nominator](/start_nominating).
 
