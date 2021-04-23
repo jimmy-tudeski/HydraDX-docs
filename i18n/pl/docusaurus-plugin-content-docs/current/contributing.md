@@ -170,31 +170,31 @@ Ta linia jest również oddzielnym akapitem, ale ... Ta linia jest oddzielona ty
 
 ## Upomnienia
 
-:::Uwaga
+:::note
 
 To jest Notatka / Uwaga
 
 :::
 
-:::Podpowiedź
+:::tip
 
 To jest podpowiedź
 
 :::
 
-:::Kluczowa Informacja
+:::important
 
 To jest niezwykla ważne
 
 :::
 
-:::Zalecenia
+:::caution
 
 Zaleca się
 
 :::
 
-:::Ostrzeżenie!!!
+:::warning
 
 To jest ostrzeżenie
 

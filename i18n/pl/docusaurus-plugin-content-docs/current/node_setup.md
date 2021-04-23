@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Ta sekcja przeprowadzi Cię przez proces konfigurowania i uruchamiania noda HydraDX.
 
-:::Uwaga
+:::note
 
 Uruchomienie noda walidatora wymaga pewnych umiejętności technicznych potrzebnych do prawidłowej konfiguracji noda i zagwarantowania jego ciągłej pracy. Jeśli nie jesteś pewien, czy dasz sobie radę, zalecamy zamiast tego stakowanie swoich tokenów HDX [nominuj_swoje_HDX](/start_nominating) u doświadczonego walidatora. W ten sposób chronisz siebie i nominatorów przed przypadkową utratą środków.
 :::
@@ -21,7 +21,7 @@ Do uruchomienia noda walidatora HydraDX wymagane są co najmniej następujące s
 * Pamięć ram: 64GB RAM
 * Przestrzeń dyskowa: NVMe SSD with a capacity of at least 200GB (ilość danych będzie rosła z czasem)
 
-:::Uwaga
+:::note
 
 Są to minimalne wymagania techniczne, które zostały zweryfikowane przez zespół. Chcesz się upewnić, że Twój komputer ma wystarczające zasoby do uruchomienia węzła? Przeprowadź test porównawczy wydajności [test wydajności](/performance_benchmark).
 
@@ -78,7 +78,7 @@ Możesz uruchomić plik binarny, wykonując następujące polecenie:
 $ {ŚCIEŻKA_DO_TWOJEGO_PLIKU_BINARNEGO} --chain lerna --name {NAZWA_TWOJEGO_NODA} --validator
 ```
 
-:::Uwaga
+:::note
 
 Nody walidatorów wymagają całej bazy danych łańcucha. Jeśli wcześniej uruchomiłeś węzeł bez flagi --validator, będziesz musiał ponownie zsynchronizować bazę danych przez wyczyszczenie łańcucha przed uruchomieniem noda.
 
@@ -112,7 +112,7 @@ RestartSec=120
 WantedBy=multi-user.target
 ```
 
-:::uWAGA
+:::note
 Ustawienie RestartSec jest zalecane, ponieważ opóźnia restart węzła w przypadku awarii. Pozwala to na zapisanie wszelkich nieutrwalonych danych (takich jak głosy konsensusu) na dysku przed ponownym uruchomieniem noda. Ponowne uruchomienie noda natychmiast po awarii może spowodować niejednoznaczność lub podwójne podpisywanie, ostatecznie skutkujące karą (slash).
 :::
 

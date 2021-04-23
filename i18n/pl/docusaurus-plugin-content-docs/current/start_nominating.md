@@ -9,7 +9,7 @@ Zostając nominatorem, stawiasz część swoich tokenów HDX, aby pomóc zabezpi
 
 Podczas nominowania, nominatorzy wyznaczają swój udział wybranemu przez siebie walidatorowi. W ten sposób nominatorzy wybierają aktywny zestaw walidatorów i otrzymują nagrody za swój udział. Ilość nagród, które otrzymasz jako nominator, zależy od procentu prowizji od wybranego walidatora - im wyższa prowizja od nagrody walidatora, tym mniej nagród otrzymasz za swoją stawkę.
 
-:::Ostrzeżenie!!!
+:::warning
 
 Nominowanie jest bardziej przystępną formą udziału w procesie obstawiania, ale wiąże się również z pewnym ryzykiem. Jeśli wyznaczony przez Ciebie walidator zachowuje się niewłaściwie (np. Nie utrzymuje wymaganego czasu pracy), może nastąpić cięcie "slashing", które może doprowadzić do częściowej mimowolnej utraty postawionych środków. Zdecydowanie zalecamy przeprowadzenie należytej staranności przed wyznaczeniem walidatora.
 
@@ -19,7 +19,7 @@ Nominowanie jest bardziej przystępną formą udziału w procesie obstawiania, a
 
 Aby uzyskać dostęp do interfejsu obstawiania, musisz najpierw otworzyć Polkadot / apps, podłączyć go do jednego z [publicznych węzłów HydraDX RPC] (/ polkadotjs_apps_public) i upewnić się, że widzisz swoje konto [saldo] (https: // polkadot .js.org / apps /? rpc = wss% 3A% 2F% 2Frpc-01.snakenet.hydradx.io # / accounts)
 
-:::Uwaga
+:::note
 
 Czy nadal jesteś w posiadaniu tokenów xHDX, które kupiłeś podczas wydarzenia Balancer LBP? Przed kontynuowaniem musisz najpierw [odebrać swój HDX] (/ claim).
 
@@ -40,7 +40,7 @@ Interfejs obstawiania zawiera następujące zakładki menu:
 
 ## 01 Wiązanie / Blokowanie tokenów HDX
 
-:::Ostrzeżenie!!!
+:::warning
 
 Chodzi tutaj o zablokowanie tokenów HDX, aby zagwarantować bezpieczeństwo sieci. Niewłaściwe zachowanie wyznaczonego przez Ciebie węzła walidatora może zostać ukarane cięciem, co może doprowadzić do mimowolnej utraty środków. Zdecydowanie zalecamy dołożenie należytej staranności przy wyborze walidatora do nominacji.
 
@@ -60,7 +60,7 @@ Po kliknięciu przycisku * Skrytka *, powinieneś zobaczyć preferencje łączen
 * ** wartość związana **: ilość kleju HDX, który łączysz. Nie wiąż wszystkich HDX, które posiadasz - zamiast tego zostaw część na pokrycie późniejszych opłat transakcyjnych.
 * ** miejsce płatności **: konto, na które zostaną wysłane nagrody za obstawianie.
 
-:::Ostrzeżenie
+:::warning
 
 Nie wiąż wszystkich dostępnych tokenów HDX. Zostaw niewielką rezerwę na pokrycie opłat transakcyjnych. Jeśli połączysz wszystkie posiadane tokeny HDX, możesz nie być w stanie podpisać transakcji w celu rozpoczęcia procesu nominacji.
 
@@ -68,7 +68,7 @@ Nie wiąż wszystkich dostępnych tokenów HDX. Zostaw niewielką rezerwę na po
 
 Po dostosowaniu preferencji łączenia kliknij ** Wiązanie ** i podpisz transakcję, aby zakończyć proces wiązania.
 
-:::Uwaga
+:::note
 
 Ze względów bezpieczeństwa nie zaleca się posiadania tych samych kont w skrytce i kontrolerze. Ponieważ jednak transfery są wyłączone w Snakenet, obecnie nie jest możliwe korzystanie z oddzielnych kont. Zdecydowanie zalecamy przełączenie się na oddzielne konta Skrytki i Kontrolera, gdy tylko stanie się to możliwe w przyszłości.
 
@@ -82,7 +82,7 @@ Ze względów bezpieczeństwa nie zaleca się posiadania tych samych kont w skry
 
 Po związaniu HDX możesz teraz wyznaczyć walidatora. Przed kontynuowaniem należy przeprowadzić należytą staranność i zdecydować, których walidatorów chcesz wyznaczyć na podstawie ich (wcześniejszych) wyników. Aby to zrobić, zapoznaj się z informacjami w interfejsie obstawiania [omówionym powyżej] (# 00-staking-ui).
 
-:::Uwaga
+:::note
 
 HydraDX Snakenet ma ** limit 64 liczników na węzeł walidujący **. Wybierając węzeł do nominacji, upewnij się, że walidator nie osiągnął maksymalnej liczby nominacji, w przeciwnym razie Twoja nominacja będzie nieważna i nie otrzymasz nagrody za swoją stawkę. Liczbę nominacji dla każdego walidatora można znaleźć w zakładce menu * Oczekujące * w interfejsie Staking UI.
 
@@ -125,7 +125,7 @@ Gdy nominacja stanie się aktywna, powinieneś znaleźć ją na liście * Aktywn
   <img src = {useBaseUrl ('/ nominator-guide / nominate-validator-4.png')} />
 </div>
 
-:::Uwaga
+:::note
 
 Upewnij się, że od czasu do czasu wracasz do swoich nominacji. Możliwe, że niektórzy z Twoich walidatorów zmienią procent prowizji, co będzie miało negatywny wpływ na Twoje nagrody. Często sprawdzając status swoich nominacji, będziesz mógł zareagować, aktualizując listę nominowanych walidatorów.
 

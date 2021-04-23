@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Po [skonfigurowaniu węzła HDX] (/ node_setup) należy powiązać tokeny HDX i ustawić klucze walidatora, zanim będzie można rozpocząć walidację.
 
-:::Ostrzeżenie
+:::warning
 
 Uruchomienie węzła walidatora wymaga pewnych umiejętności technicznych potrzebnych do prawidłowej konfiguracji węzła i zagwarantowania jego czasu pracy. Wymagamy również, aby walidatory zawsze uruchamiały węzeł przy użyciu najnowszej stabilnej wersji. Jeśli nie jesteś pewien, co tutaj robisz, zalecamy zamiast tego [nominować swoje HDX] (/ start_nominating) doświadczonemu walidatorowi. W ten sposób chronisz siebie i swoich nominatorów przed mimowolną utratą środków.
 :::
@@ -16,7 +16,7 @@ Uruchomienie węzła walidatora wymaga pewnych umiejętności technicznych potrz
 
 Aby wziąć udział w sieci jako węzeł walidujący, musisz połączyć pewną ilość tokenów HDX. Jeśli nie masz żadnego HDX, nie możesz uczestniczyć w _wstępnym_ etapie sieci testowej. Jednak w nadchodzących tygodniach zespół ogłosi kilka ekscytujących wiadomości, więc bądź na bieżąco i zapisz się do naszego newslettera.
 
-:::Uwaga
+:::note
 
 Czy nadal jesteś w posiadaniu tokenów xHDX, które kupiłeś podczas wydarzenia Balancer LBP? Przed kontynuowaniem musisz najpierw [odebrać swój HDX] (/ claim).
 
@@ -24,7 +24,7 @@ Czy nadal jesteś w posiadaniu tokenów xHDX, które kupiłeś podczas wydarzeni
 
 Aby połączyć HDX, otwórz Polkadot / apps i połącz się z jednym z [publicznych węzłów HydraDX RPC] (/ polkadotjs_apps_public). Upewnij się, że widzisz [saldo] swojego konta (https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts).
 
-:::Ostrzeżenie!!!
+:::warning
 
 W grę wchodzi blokowenia tokenów HDX, aby zagwarantować bezpieczeństwo sieci. Niewłaściwe zachowanie węzła walidatora może zostać ukarane cięciem, co może prowadzić do mimowolnej utraty środków. Zdecydowanie zalecamy kontynuowanie tylko wtedy, gdy naprawdę wiesz, co robisz.
 
@@ -42,7 +42,7 @@ Po kliknięciu przycisku Skrytka powinieneś zobaczyć preferencje wiązania z c
 * ** wartość związana **: ilość kleju HDX, który łączysz. Nie wiąż wszystkich HDX, które posiadasz - zamiast tego zostaw część na pokrycie późniejszych opłat transakcyjnych.
 * ** miejsce płatności **: konto, na które zostaną wysłane nagrody potwierdzające.
 
-:::Ostrzeżenie!!!
+:::warning
 
 Nie wiąż wszystkich dostępnych tokenów HDX. Zostaw niewielką rezerwę na pokrycie opłat transakcyjnych. Jeśli połączysz wszystkie posiadane tokeny HDX, możesz nie być w stanie podpisać transakcji w celu rozpoczęcia procesu walidacji.
 
@@ -50,7 +50,7 @@ Nie wiąż wszystkich dostępnych tokenów HDX. Zostaw niewielką rezerwę na po
 
 Po dostosowaniu preferencji łączenia kliknij _Bond_ i podpisz transakcję, aby zakończyć proces wiązania.
 
-:::Uwaga
+:::note
 
 Ze względów bezpieczeństwa nie zaleca się posiadania tych samych kont w skrytce i kontrolerze. Ponieważ jednak transfery są wyłączone w Snakenet, obecnie nie jest możliwe korzystanie z oddzielnych kont. Zdecydowanie zalecamy przełączenie się na oddzielne konta Skrytki i Kontrolera, gdy tylko stanie się to możliwe w przyszłości.
 

@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Możesz użyć Polkadot / apps, aby połączyć się z lokalnym węzłem HydraDX. W tym celu musisz mieć dostęp do portu `9944`, który jest używany do połączeń RPC websocket.
 
-:::Ostrzeżenie
+:::warning
 
 Jeśli używasz węzła jako walidatora, zdecydowanie zalecamy umieszczenie na czarnej liście portu `9944` dla połączeń zdalnych. Ten port może być nadużywany przez osoby trzecie w celu obniżenia wydajności Twojego węzła, co może skutkować obcięciem i mimowolną utratą środków. Do łączenia się z węzłem walidatora należy używać portu „9944” tylko wtedy, gdy węzeł znajduje się w sieci lokalnej.
 :::
