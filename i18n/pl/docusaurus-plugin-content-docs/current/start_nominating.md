@@ -75,12 +75,12 @@ Ze względów bezpieczeństwa nie zaleca się posiadania tych samych kont w skry
 :::
 
 <div style={{textAlign:'center'}}>
-  <img src={useBaseUrl('/ nominator-guide/bond-hdx-2.png')} />
+  <img src={useBaseUrl('/nominator-guide/bond-hdx-2.png')} />
 </div>
 
 ## 02 Wyznacz walidatora
 
-Po związaniu HDX możesz teraz wyznaczyć walidatora. Przed kontynuowaniem należy przeprowadzić należytą staranność i zdecydować, których walidatorów chcesz wyznaczyć na podstawie ich (wcześniejszych) wyników. Aby to zrobić, zapoznaj się z informacjami w interfejsie obstawiania [omówionym powyżej](# 00-staking-ui).
+Po związaniu HDX możesz teraz wyznaczyć walidatora. Przed kontynuowaniem należy przeprowadzić należytą staranność i zdecydować, których walidatorów chcesz wyznaczyć na podstawie ich (wcześniejszych) wyników. Aby to zrobić, zapoznaj się z informacjami w interfejsie obstawiania [omówionym powyżej](#00-staking-ui).
 
 :::note
 

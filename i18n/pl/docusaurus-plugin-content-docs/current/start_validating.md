@@ -66,12 +66,12 @@ Drugim krokiem jest wygenerowanie kluczy sesji. Klucze sesji służą do powiąz
 
 Aby wygenerować klucze sesji, uruchom w węźle:
 
-`` bash
-$ curl -H "Content-Type: application / json" -d '{"id": 1, "jsonrpc": "2.0", "method": "author_rotateKeys", "params": []}' http: / / localhost: 9933
+```bash
+$ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
 
 # Przykładowe dane wyjściowe
-{ "JSON-RPC": "2.0", "Wynik": "0x9257c7a88f94f858a6f477743b4180f0c9a0630a1cea85c3f47dc6ca78e503767089bebe02b18765232ecd67b35a7fb18fc3027613840f27aca5a5cc300775391cf298af0f0e0342d0d0d873b1ec703009c6816a471c64b5394267c6fc583c31884ac83d9fed55d5379bbe1579601872ccc577ad044dd449848da1f830dd3e45", "id" 1}
-`` ''
+{"jsonrpc":"2.0","result":"0x9257c7a88f94f858a6f477743b4180f0c9a0630a1cea85c3f47dc6ca78e503767089bebe02b18765232ecd67b35a7fb18fc3027613840f27aca5a5cc300775391cf298af0f0e0342d0d0d873b1ec703009c6816a471c64b5394267c6fc583c31884ac83d9fed55d5379bbe1579601872ccc577ad044dd449848da1f830dd3e45","id":1}
+```
 
 Klucze sesji można znaleźć w części _result_ danych wyjściowych („0x9257 ...” w przykładowym wyjściu powyżej).
 
@@ -97,15 +97,15 @@ Aby zakończyć, kliknij _Prześlij transakcję_ i podpisz transakcję.
 
 Przed kontynuowaniem upewnij się, że węzeł działa i że proces synchronizacji został w pełni zakończony. Najpewniejszym sposobem sprawdzenia stanu synchronizacji jest bezpośrednio w samym węźle:
 
-`` bash
+```bash
 
 $ journalctl -f -u hydradx-validator.service
 
 # Wynik będzie podobny do tego
-22 marca 18:37:38 Ubuntu-2010-groovy-64-minimal hydra-dx [232761]: 2021-03-22 18:37:38 💤
-Bezczynny (52 rówieśników), najlepiej: # 622028 (0x5f5a… 1041), sfinalizowany # 622025 (0x5b21… a746), ⬇ 9,1 kB / s ⬆ 6,1 kB / s
+Mar 22 18:37:38 Ubuntu-2010-groovy-64-minimal hydra-dx[232761]: 2021-03-22 18:37:38  💤 
+Idle (52 peers), best: #622028 (0x5f5a…1041), finalized #622025 (0x5b21…a746), ⬇ 9.1kiB/s ⬆ 6.1kiB/s
 
-`` ''
+```
 
 Możesz porównać numer bloku z danych wyjściowych (w powyższym przykładzie: `# 622025`) z bieżącym numerem bloku, który można znaleźć w [Polkadot / apps Explorer](https://polkadot.js.org/apps/? rpc = wss% 3A% 2F% 2Frpc-01.snakenet.hydradx.io # / explorer). W chwili pisania tego tekstu bieżący blok ma numer „# 622240”, co oznacza, że ​​węzeł użyty w przykładzie nie jest w pełni zsynchronizowany.
 
