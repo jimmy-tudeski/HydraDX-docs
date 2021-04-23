@@ -15,17 +15,17 @@ Nie masz żadnych tokenów xHDX, ale mimo to chcesz otrzymać trochę HDX? Dzię
 
 ## Wymagania wstępne
 
-Aby odebrać swój HDX, trzeba spełnić dwa warunki wstępne. W pierwszej kolejności należy zainstalować [rozszerzenie przeglądarki Polkadot.js] (https://polkadot.js.org/extension/), które posłuży do utworzenia portfela HDX. W drugiej kolejności potrzebujesz dostępu do swoich tokenów xHDX, które powinny być przechowywane w portfelu wspierającym podpisywanie wiadomości dotyczących tokenów ERC-20 (np. Metamask).
+Aby odebrać swój HDX, trzeba spełnić dwa warunki wstępne. W pierwszej kolejności należy zainstalować [rozszerzenie przeglądarki Polkadot.js](https://polkadot.js.org/extension/), które posłuży do utworzenia portfela HDX. W drugiej kolejności potrzebujesz dostępu do swoich tokenów xHDX, które powinny być przechowywane w portfelu wspierającym podpisywanie wiadomości dotyczących tokenów ERC-20 (np. Metamask).
 
 Jeśli twoje tokeny xHDX są przechowywane w Coinbase Wallet lub Trust Wallet, będziesz musiał skorzystać z jednego z poniższych obejść, aby odebrać swój HDX, ponieważ te portfele nie obsługują podpisywania wiadomości:
 
 * Metamask: Możesz użyć rozszerzenia przeglądarki Metamask i zaimportować swój portfel, używając frazy zarodka odzyskiwania.
 * 
-* MEW (MyEtherWallet): Możesz również użyć MEW, importując swoją frazę początkową odzyskiwania (* Mnemonic Phrase *) lub używając opcji połączenia WalletLink. Obie opcje są dostępne na [stronie dostępu do portfela MEW] (https://www.myetherwallet.com/access-my-wallet). Jeśli korzystasz z portfela Coinbase, możesz użyć WalletLink, w którym znajdziesz Ustawienia portfela Coinbase.
+* MEW (MyEtherWallet): Możesz również użyć MEW, importując swoją frazę początkową odzyskiwania (* Mnemonic Phrase *) lub używając opcji połączenia WalletLink. Obie opcje są dostępne na [stronie dostępu do portfela MEW](https://www.myetherwallet.com/access-my-wallet). Jeśli korzystasz z portfela Coinbase, możesz użyć WalletLink, w którym znajdziesz Ustawienia portfela Coinbase.
 
 ## Proces odbioru tokenów HDX
 
-Po upewnieniu się, że wymagania wstępne opisane powyżej zostały spełnione, możesz przejść do [aplikacji HydraDX Claim] (https://claim.hydradx.io) i kontynuować proces roszczenia.
+Po upewnieniu się, że wymagania wstępne opisane powyżej zostały spełnione, możesz przejść do [aplikacji HydraDX Claim](https://claim.hydradx.io) i kontynuować proces roszczenia.
 
 Podczas procesu odbioru wykorzystasz swoje tokeny xHDX (ERC-20), aby odebrać swój udział w tokenach HDX.
 
@@ -49,7 +49,7 @@ Po autoryzacji zostanie wyświetlony komunikat o zaktualizowanie metadanych rozs
 
 W pierwszym etapie procesu roszczenia zostaniesz poproszony o wybranie konta, na którym znajdują się Twoje tokeny xHDX. Można to zrobić, łącząc się z portfelem, w którym znajdują się tokeny ERC-20 (np. Metamask), lub wpisując ręcznie swój adres ETH w polu wprowadzania (w takim przypadku konieczne będzie później ręczne podpisanie wiadomości).
 
-Po wprowadzeniu adresu ETH powinieneś zobaczyć saldo tokenów HDX, o które możesz ubiegać się, w tym [zwrot opłat za paliwo] (https://hydradx.substack.com/p/first-governance-vote), które wydałeś za zakup xHDX na Balancer.
+Po wprowadzeniu adresu ETH powinieneś zobaczyć saldo tokenów HDX, o które możesz ubiegać się, w tym [zwrot opłat za paliwo](https://hydradx.substack.com/p/first-governance-vote), które wydałeś za zakup xHDX na Balancer.
 
 :::note
 
@@ -78,7 +78,7 @@ W trzecim etapie procesu odbioru za pomocą aplikacji HydraDX Claim otrzymasz mo
 
 :::note
 
-Pamiętaj, że w tym kroku zobaczysz ** klucz publiczny ** swojego adresu HDX, a nie adres w postaci czytelnej dla człowieka, tak jak został wyświetlony w poprzednim kroku oraz w rozszerzeniu przeglądarki Polkadot.js (aby uzyskać więcej informacji zapoznaj się z [dokumentacją ss58] (https://polkadot.js.org/docs/keyring/start/ss58)). Jeśli wykonałeś wszystkie kroki opisane powyżej, nie ma się czym martwić i można bezpiecznie przystąpić do podpisania wiadomości. Sprawdzimy również, czy konto HDX, którego używasz do podpisania transakcji odbioru na ostatnim etapie, jest zgodne z kontem, na które otrzymujesz odebrany token HDX.
+Pamiętaj, że w tym kroku zobaczysz ** klucz publiczny ** swojego adresu HDX, a nie adres w postaci czytelnej dla człowieka, tak jak został wyświetlony w poprzednim kroku oraz w rozszerzeniu przeglądarki Polkadot.js (aby uzyskać więcej informacji zapoznaj się z [dokumentacją ss58](https://polkadot.js.org/docs/keyring/start/ss58)). Jeśli wykonałeś wszystkie kroki opisane powyżej, nie ma się czym martwić i można bezpiecznie przystąpić do podpisania wiadomości. Sprawdzimy również, czy konto HDX, którego używasz do podpisania transakcji odbioru na ostatnim etapie, jest zgodne z kontem, na które otrzymujesz odebrany token HDX.
 
 :::
 
@@ -94,7 +94,7 @@ Po podpisaniu wiadomości z portfelem zawierającym tokeny xHDX, powinno otworzy
 
 Zakończyłeś proces odbioru, tym samym oficjalnie stając się właścicielem tokwnów HDX!
 
-Możesz sprawdzić saldo za pomocą [Polkadot / apps] (https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) podłączonego do HydraDX Sieć Snakenet. Pamiętaj, że nie możesz zobaczyć salda HDX bezpośrednio w rozszerzeniu przeglądarki Polkadot.js.
+Możesz sprawdzić saldo za pomocą [Polkadot / apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) podłączonego do HydraDX Sieć Snakenet. Pamiętaj, że nie możesz zobaczyć salda HDX bezpośrednio w rozszerzeniu przeglądarki Polkadot.js.
 
 ### 05 Co dalej?
 
@@ -102,5 +102,5 @@ Po zakończeniu procesu roszczenia tokeny HDX pozostaną zablokowane w Twoim por
 
 Tokeny xHDX (które wykorzystałeś do odebrania HDX) pozostaną zablokowane w Twoim portfelu ERC-20 na zawsze, co oznacza, że możesz je ukryć w swoim portfelu (lub zachować je jako widoczne jako odznaka wczesnej adaptacji).
 
-Chcesz wykorzystać swoje tokeny HDX do pracy i pomóc poprawić bezpieczeństwo sieci HydraDX? Możesz wziąć udział w naszej zachęcającej sieci testowej o nazwie ** Snakenet **, obstawiając swój HDX. Jeśli jesteś zainteresowany, możesz kontynuować, zapoznając się z [procesem obstawiania] (/ staking), po którym możesz zdecydować się na udział jako [walidator] (/ start_validating) lub [nominator] (/ start_nominating).
+Chcesz wykorzystać swoje tokeny HDX do pracy i pomóc poprawić bezpieczeństwo sieci HydraDX? Możesz wziąć udział w naszej zachęcającej sieci testowej o nazwie ** Snakenet **, obstawiając swój HDX. Jeśli jesteś zainteresowany, możesz kontynuować, zapoznając się z [procesem obstawiania](/ staking), po którym możesz zdecydować się na udział jako [walidator](/ start_validating) lub [nominator](/ start_nominating).
 

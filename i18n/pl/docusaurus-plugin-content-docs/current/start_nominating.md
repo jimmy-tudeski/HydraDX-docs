@@ -17,11 +17,11 @@ Nominowanie jest bardziej przystępną formą udziału w procesie obstawiania, a
 
 ## 00 Interfejs Stejkingu
 
-Aby uzyskać dostęp do interfejsu obstawiania, musisz najpierw otworzyć Polkadot / apps, podłączyć go do jednego z [publicznych węzłów HydraDX RPC] (/ polkadotjs_apps_public) i upewnić się, że widzisz swoje konto [saldo] (https: // polkadot .js.org / apps /? rpc = wss% 3A% 2F% 2Frpc-01.snakenet.hydradx.io # / accounts)
+Aby uzyskać dostęp do interfejsu obstawiania, musisz najpierw otworzyć Polkadot / apps, podłączyć go do jednego z [publicznych węzłów HydraDX RPC](/ polkadotjs_apps_public) i upewnić się, że widzisz swoje konto [saldo](https: // polkadot .js.org / apps /? rpc = wss% 3A% 2F% 2Frpc-01.snakenet.hydradx.io # / accounts)
 
 :::note
 
-Czy nadal jesteś w posiadaniu tokenów xHDX, które kupiłeś podczas wydarzenia Balancer LBP? Przed kontynuowaniem musisz najpierw [odebrać swój HDX] (/ claim).
+Czy nadal jesteś w posiadaniu tokenów xHDX, które kupiłeś podczas wydarzenia Balancer LBP? Przed kontynuowaniem musisz najpierw [odebrać swój HDX](/ claim).
 
 :::
 
@@ -80,7 +80,7 @@ Ze względów bezpieczeństwa nie zaleca się posiadania tych samych kont w skry
 
 ## 02 Wyznacz walidatora
 
-Po związaniu HDX możesz teraz wyznaczyć walidatora. Przed kontynuowaniem należy przeprowadzić należytą staranność i zdecydować, których walidatorów chcesz wyznaczyć na podstawie ich (wcześniejszych) wyników. Aby to zrobić, zapoznaj się z informacjami w interfejsie obstawiania [omówionym powyżej] (# 00-staking-ui).
+Po związaniu HDX możesz teraz wyznaczyć walidatora. Przed kontynuowaniem należy przeprowadzić należytą staranność i zdecydować, których walidatorów chcesz wyznaczyć na podstawie ich (wcześniejszych) wyników. Aby to zrobić, zapoznaj się z informacjami w interfejsie obstawiania [omówionym powyżej](# 00-staking-ui).
 
 :::note
 

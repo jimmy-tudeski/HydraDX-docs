@@ -14,7 +14,7 @@ Jeśli używasz węzła jako walidatora, zdecydowanie zalecamy umieszczenie na c
 
 ### Dostęp do lokalnego węzła za pomocą Polkadot / apps
 
-Aby uzyskać dostęp do węzła, otwórz [Polkadot / apps] (https://polkadot.js.org/apps/) i kliknij w lewym górnym rogu, aby zmienić sieć.
+Aby uzyskać dostęp do węzła, otwórz [Polkadot / apps](https://polkadot.js.org/apps/) i kliknij w lewym górnym rogu, aby zmienić sieć.
 
 <div>
   <img src={useBaseUrl('/polkadotjs-apps/PolkadotJS-APPS-1.png')} />

@@ -55,9 +55,9 @@ Przekreślenie za pomoca podwójnej tyldy. ~~Scratch this.~~
 
 ## Linki
 
-[Jestem linkiem w tekście] (https://www.google.com/)
+[Jestem linkiem w tekście](https://www.google.com/)
 
-[Jestem wbudowanym linkiem z tytułem] (https://www.google.com/ "Strona główna Google")
+[Jestem wbudowanym linkiem z tytułem](https://www.google.com/ "Strona główna Google")
 
 [Jestem odnośnikiem w stylu referencyjnym] [tekst referencyjny bez rozróżniania dowolnej wielkości liter]
 
@@ -79,7 +79,7 @@ Tekst pokazujący, że linki do odnośników można znaleźć później.
 
 Oto nasze logo (najedź kursorem, aby zobaczyć tekst tytułowy):
 
-Styl inline:! [Tekst alternatywny] (https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png „Tekst tytułu logo 1”)
+Styl inline:! [Tekst alternatywny](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png „Tekst tytułu logo 1”)
 
 Styl odniesienia:! [Tekst alternatywny] [logo]
 
@@ -87,7 +87,7 @@ Styl odniesienia:! [Tekst alternatywny] [logo]
 
 Obrazy z dowolnego folderu mogą być używane, podając ścieżkę do pliku. Ścieżka powinna być podana względem pliku markdown.
 
-! [img] (../ static / img / logo.svg)
+! [img](../ static / img / logo.svg)
 
 ---
 
