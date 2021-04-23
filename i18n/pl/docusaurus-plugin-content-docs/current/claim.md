@@ -39,11 +39,11 @@ Upewnij się, że nie jesteś ofiarą ataku phishingowego i zwróć uwagę na wy
 
 :::
 
-<img alt="authorize" src={useBaseUrl('/claim/authorize.png')} />
+<img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
 Po autoryzacji zostanie wyświetlony komunikat o zaktualizowanie metadanych rozszerzenia przeglądarki Polkadot.js. Umożliwi to Polkadot.js tworzenie adresów specyficznych dla HydraDX, które są wymagane do zakończenia procesu odbioru tokenów HDX.
 
-<img alt="authorize" src={useBaseUrl('/claim/metadata.png')} />
+<img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
 ### 01 Wybierz swój adres ETH
 
