@@ -3,96 +3,95 @@ id: contributing
 title: Writing Docs
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+Możesz pisać zawartość przy użyciu składni [Markdown GitHub](https://github.github.com/gfm/).
 
-## Markdown Syntax {#markdown-syntax}
+## Składnia  Markdown
 
-To serve as an example page when styling markdown based Docusaurus sites.
+Służy jako przykładowa strona podczas stylizacji witryn opartych o Docusaurus.
 
-## Headers {#headers}
+## Nagłówki
 
-# H1 - Create the best documentation {#h1---create-the-best-documentation}
+# H1 - Stwórz jak najlepszą dokumentację
 
-## H2 - Create the best documentation {#h2---create-the-best-documentation}
+## H2 - Stwórz jak najlepszą dokumentację
 
-### H3 - Create the best documentation {#h3---create-the-best-documentation}
+### H3 - Stwórz jak najlepszą dokumentację
 
-#### H4 - Create the best documentation {#h4---create-the-best-documentation}
+#### H4 - Stwórz jak najlepszą dokumentację
 
-##### H5 - Create the best documentation {#h5---create-the-best-documentation}
+##### H5 - Stwórz jak najlepszą dokumentację
 
-###### H6 - Create the best documentation {#h6---create-the-best-documentation}
-
----
-
-## Emphasis {#emphasis}
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
+###### H6 - Stwórz jak najlepszą dokumentację
 
 ---
 
-## Lists {#lists}
+## Wyszczególnienia
 
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
+Wyszczególnienia kursywą za pomocą *gwiazdek* or _podkreślników_.
 
-* Unordered list can use asterisks
+Pogrubienia za pomocą **podwójnej gwiazdki** or __dwóch podkreślników__.
 
-- Or minuses
+Połączone wyszczególnienie **podwójna gwiazdka oraz __dwa podkreślniki__**.
 
-+ Or pluses
+Przekreślenie za pomoca podwójnej tyldy. ~~Scratch this.~~
 
 ---
 
-## Links {#links}
+## Listy
 
-[I'm an inline-style link](https://www.google.com/)
+1. Pierwsza uporządkowana pozycja listy
+1. Kolejna pozycja
+   - Podlista nieuporządkowana.
+1. Rzeczywiste liczby nie mają znaczenia, tylko że to liczba
+   1. Podlista uporządkowana
+1. I kolejna pozycja.
 
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
+* Lista nieuporządkowana może zawierać gwiazdki
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]
+- Albo minusy
 
-[You can use numbers for reference-style link definitions][1]
++ Lub plusy
+---
 
-Or leave it empty and use the [link text itself].
+## Linki
 
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
+[Jestem linkiem w tekście] (https://www.google.com/)
 
-Some text to show that the reference links can follow later.
+[Jestem wbudowanym linkiem z tytułem] (https://www.google.com/ "Strona główna Google")
 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
+[Jestem odnośnikiem w stylu referencyjnym] [tekst referencyjny bez rozróżniania dowolnej wielkości liter]
+
+[Możesz użyć numerów dla definicji odsyłaczy w stylu odniesienia] [1]
+
+Lub pozostaw to pole puste i użyj [samego tekstu linku].
+
+Adresy URL i adresy URL w nawiasach ostrych zostaną automatycznie zamienione na linki. http://www.example.com/ lub <http://www.example.com/> i czasami example.com (ale nie na przykład w GitHub).
+
+Tekst pokazujący, że linki do odnośników można znaleźć później.
+
+[dowolny tekst referencyjny bez rozróżniania wielkości liter]: https://www.mozilla.org/
 [1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
+[sam tekst linku]: http://www.reddit.com/
 
 ---
 
-## Images {#images}
+## Zdjęcia
 
-Here's our logo (hover to see the title text):
+Oto nasze logo (najedź kursorem, aby zobaczyć tekst tytułowy):
 
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
+Styl inline:! [Tekst alternatywny] (https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png „Tekst tytułu logo 1”)
 
-Reference-style: ![alt text][logo]
+Styl odniesienia:! [Tekst alternatywny] [logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png „Tekst tytułu logo 2”
 
-Images from any folder can be used by providing path to file. Path should be relative to markdown file.
+Obrazy z dowolnego folderu mogą być używane, podając ścieżkę do pliku. Ścieżka powinna być podana względem pliku markdown.
 
-![img]{useBaseUrl('/static/img/logo.svg')}
+! [img] (../ static / img / logo.svg)
 
 ---
 
-## Code {#code}
+## Kod
 
 ```javascript
 var s = 'JavaScript syntax highlighting';
@@ -105,97 +104,98 @@ print(s)
 ```
 
 ```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
+Nie wskazano języka, więc nie ma podświetlania składni.
+Ale dorzućmy <b> tag </b>.
 ```
 
 ```js {2}
-function highlightMe() {
+funkcja podkreślMnie() {
   console.log('This line can be highlighted!');
 }
 ```
 
 ---
 
-## Tables {#tables}
+## Tabele
+Do wyrównania kolumn można użyć dwukropków.
 
-Colons can be used to align columns.
 
-| Tables        |      Are      |   Cool |
+| Tabele        |      Są       |  Fajne |
 | ------------- | :-----------: | -----: |
 | col 3 is      | right-aligned | \$1600 |
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+Każda komórka nagłówka musi zawierać co najmniej 3 myślniki. Zewnętrzne rury (|) są opcjonalne i nie musisz ładnie ustawiać surowej linii Markdown. Możesz także użyć wbudowanej usługi Markdown.
 
-| Markdown | Less      | Pretty     |
+| Markdown | Mniej | Ladny |
 | -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
+| _Nadal_ | `renderuje` | ** ładnie ** |
+| 1 | 2 | 3 |
 
 ---
 
-## Blockquotes {#blockquotes}
+## Cytaty blokowe
 
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
+> Cytaty blokowe są bardzo przydatne w e-mailach do emulacji tekstu odpowiedzi. Ta linia jest częścią tego samego cytatu.
 
-Quote break.
+Przerwa w cytowaniu.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
+
+> To jest bardzo długa linijka, która będzie nadal poprawnie cytowana po zakończeniu. O rany, piszmy dalej, aby upewnić się, że to wystarczająco długo, aby wszyscy mogli się zapakować. Och, możesz _wstawić_ ** Markdown ** w cytat blokowy.
 
 ---
 
-## Inline HTML {#inline-html}
+## Wbudowany kod HTML
 
 <dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+  <dt> Lista definicji </dt>
+  <dd> Czy jest czymś, czego ludzie czasami używają. </dd>
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dt> Markdown w HTML </dt>
+  <dd> * Nie * działa ** bardzo ** dobrze. Użyj <em> tagów </em> HTML. </dd>
 </dl>
 
 ---
 
-## Line Breaks {#line-breaks}
+## Podziały wierszy
 
-Here's a line for us to start with.
+Oto kwestia, od której możemy zacząć.
 
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
+Ta linia jest oddzielona od powyższej dwoma znakami nowej linii, więc będzie to _oddzielny akapit_.
 
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
+Ta linia jest również oddzielnym akapitem, ale ... Ta linia jest oddzielona tylko pojedynczym znakiem nowej linii, więc jest to osobna linia w _ tym samym akapicie_.
 
 ---
 
-## Admonitions {#admonitions}
+## Upomnienia
 
-:::note
+:::Uwaga
 
-This is a note
-
-:::
-
-:::tip
-
-This is a tip
+To jest Notatka / Uwaga
 
 :::
 
-:::important
+:::Podpowiedź
 
-This is important
-
-:::
-
-:::caution
-
-This is a caution
+To jest podpowiedź
 
 :::
 
-:::warning
+:::Kluczowa Informacja
 
-This is a warning
+To jest niezwykla ważne
+
+:::
+
+:::Zalecenia
+
+Zaleca się
+
+:::
+
+:::Ostrzeżenie!!!
+
+To jest ostrzeżenie
 
 :::
