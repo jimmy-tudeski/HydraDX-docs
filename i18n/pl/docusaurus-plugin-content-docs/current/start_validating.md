@@ -32,8 +32,8 @@ W grę wchodzi blokowenia tokenów HDX, aby zagwarantować bezpieczeństwo sieci
 
 Aby przejść do następnego kroku, przejdź do * Sieć *> * Obstawianie *> * Działania na koncie *> * + Skrytka *
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ validator-guide / bond-hdx-1.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/validator-guide/bond-hdx-1.png')} />
 </div>
 
 Po kliknięciu przycisku Skrytka powinieneś zobaczyć preferencje wiązania z czterema edytowalnymi polami:
@@ -56,8 +56,8 @@ Ze względów bezpieczeństwa nie zaleca się posiadania tych samych kont w skry
 
 :::
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ validator-guide / bond-hdx-2.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/validator-guide/bond-hdx-2.png')} />
 </div>
 
 ## 02 Generuj klucze sesji
@@ -89,8 +89,8 @@ Wypełnij pola:
 
 Aby zakończyć, kliknij _Prześlij transakcję_ i podpisz transakcję.
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ validator-guide / set-session-keys-1.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/validator-guide/set-session-keys-1.png')} />
 </div>
 
 ## 04 Upewnij się, że twój węzeł jest w pełni zsynchronizowany
@@ -117,16 +117,16 @@ Aby rozpocząć walidację, przejdź do Polkadot / apps:
 
 * Sieć *> * Obstawianie *> * Działania na koncie *> * Weryfikuj * (przycisk obok powiązanego HDX)
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ validator-guide / validate-1.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/validator-guide/validate-1.png')} />
 </div>
 
 Po kliknięciu przycisku * Zatwierdź * powinno pojawić się okienko zatytułowane * ustaw preferencje walidatora *. Tutaj musisz ustawić swój _ procent prowizji od nagrody_. To jest część nagród, które zostaną Ci wypłacone. Pozostałe nagrody zostaną podzielone między twoich nominatorów zgodnie z ich stawką. Jeśli zdecydujesz się nie pobierać żadnej prowizji od nagrody, możesz ustawić procent na 0.
 
 Aby potwierdzić, kliknij * Zatwierdź * i podpisz transakcję.
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ validator-guide / validate-2.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/validator-guide/validate-2.png')} />
 </div>
 
 ## 06 Sprawdź stan swojego węzła walidatora
@@ -139,8 +139,8 @@ Ta zakładka zawiera przegląd wszystkich aktywnych walidatorów podłączonych 
 
 Twój węzeł walidatora pozostanie w kolejce oczekiwania, dopóki nie zostanie wybrany do włączenia do zestawu walidatora. Zestaw walidatora jest aktualizowany w każdej epoce, co pozwala na dołączanie nowych węzłów, pod warunkiem, że są puste miejsca.
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ validator-guide / validate-3.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/validator-guide/validate-3.png')} />
 </div>
 
 Dziękujemy za wsparcie HydraDX, właśnie zostałeś walidatorem Snakenet! 🎉

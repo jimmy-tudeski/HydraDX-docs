@@ -15,20 +15,20 @@ Istnieją dwa publiczne węzły RPC, które są obsługiwane przez firmę HydraD
 
 Aby ręcznie uzyskać dostęp do publicznego węzła RPC, otwórz [Polkadot / apps](https://polkadot.js.org/apps/) i kliknij w lewym górnym rogu, aby zmienić sieć.
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ polkadotjs-apps / PolkadotJS-APPS-1.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/polkadotjs-apps/PolkadotJS-APPS-1.png')} />
 </div>
 
 Kliknij ** LIVE NETWORKS ** i wybierz ** HydraDX **.
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ polkadotjs-apps / public-1.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/polkadotjs-apps/public-1.png')} />
 </div>
 
 Wybierz jeden z węzłów i kliknij ** Przełącz **.
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ polkadotjs-apps / public-2.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/polkadotjs-apps/public-2.png')} />
 </div>
 
 Teraz powinieneś być połączony z wybranym publicznym węzłem RPC.

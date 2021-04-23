@@ -17,7 +17,7 @@ Nominowanie jest bardziej przystępną formą udziału w procesie obstawiania, a
 
 ## 00 Interfejs Stejkingu
 
-Aby uzyskać dostęp do interfejsu obstawiania, musisz najpierw otworzyć Polkadot / apps, podłączyć go do jednego z [publicznych węzłów HydraDX RPC](/polkadotjs_apps_public) i upewnić się, że widzisz swoje konto [saldo](https: // polkadot .js.org / apps /? rpc = wss% 3A% 2F% 2Frpc-01.snakenet.hydradx.io # / accounts)
+Aby uzyskać dostęp do interfejsu obstawiania, musisz najpierw otworzyć Polkadot / apps, podłączyć go do jednego z [publicznych węzłów HydraDX RPC](/polkadotjs_apps_public) i upewnić się, że widzisz swoje konto [saldo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
 
 :::note
 
@@ -50,8 +50,8 @@ Aby powiązać tokeny HDX, przejdź do * Działania na koncie * w interfejsie ob
 
 * Sieć *> * Obstawianie *> * Działania na koncie *> * + Skrytka *
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ nominator-guide / bond-hdx-1.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/bond-hdx-1.png')} />
 </div>
 
 Po kliknięciu przycisku * Skrytka *, powinieneś zobaczyć preferencje łączenia z czterema edytowalnymi polami:
@@ -74,8 +74,8 @@ Ze względów bezpieczeństwa nie zaleca się posiadania tych samych kont w skry
 
 :::
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ nominator-guide / bond-hdx-2.png')} />
+<div style={{textAlign:'center'}}>
+  <img src={useBaseUrl('/ nominator-guide/bond-hdx-2.png')} />
 </div>
 
 ## 02 Wyznacz walidatora
@@ -92,16 +92,16 @@ Aby wyznaczyć jednego lub więcej walidatorów, przejdź do:
 
 * Sieć *> * Obstawianie *> * Działania na koncie *> * Nominuj * (przycisk obok powiązanego HDX)
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ nominator-guide / nominate-validator-1.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-1.png')} />
 </div>
 
 Po kliknięciu przycisku * Nominuj * powinieneś zobaczyć wyskakujące okienko o nazwie * nominuj walidatorów *. Tutaj możesz wybrać jednego lub więcej walidatorów do nominacji z listy dostępnych walidatorów. Zdecydowanie zaleca się wyznaczenie wielu walidatorów, aby zapobiec byciu nieaktywnymi, jeśli nie uzyskasz miejsca w jednym walidatorze (np. Walidator jest przepełniony lub nie został wybrany do aktywnego zestawu walidatorów). Możesz wyznaczyć do 16 walidatorów. W każdej epoce tylko jedna z Twoich nominacji może być aktywna, nie możesz zostać wybrany przez wielu walidatorów jednocześnie. Twoja stawka zostanie automatycznie przypisana do jednego z wybranych przez Ciebie walidatorów w sposób maksymalizujący decentralizację i zyski. Po prostu wybrałeś ilość klejonego HDX i weryfikatory, którym ufasz.
 
 Aby wyznaczyć wybranych walidatorów, kliknij _Nominuj_ i podpisz transakcję.
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ nominator-guide / nominate-validator-2.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
 </div>
 
 
@@ -115,14 +115,14 @@ Aby sprawdzić status swoich nominacji, przejdź do:
 
 Możesz zobaczyć swoje nieaktywne nominacje w sekcji * Oczekujące nominacje *:
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ nominator-guide / nominate-validator-3.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-3.png')} />
 </div>
 
 Gdy nominacja stanie się aktywna, powinieneś znaleźć ją na liście * Aktywnych nominacji *
 
-<div style = {{textAlign: 'center'}}>
-  <img src = {useBaseUrl ('/ nominator-guide / nominate-validator-4.png')} />
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-4.png')} />
 </div>
 
 :::note
