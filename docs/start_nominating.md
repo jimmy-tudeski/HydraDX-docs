@@ -123,6 +123,53 @@ Once a nomination becomes active, you should find it in the list of *Active nomi
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-4.png')} />
+</div>  
+
+:::note
+
+Make sure that you revisit your nominations once in a while. It is possible that some of your validators change their commission percentage which will have a negative impact on your rewards. By checking the status of your nominations frequently you will be able to react by updating the list of your nominated validators.
+
+:::
+
+## 04 Adjust your nominations {#04-adjust-your-nominations}
+
+If some of your validators become oversubscribed or change their commission, you might want to adjust your nominations.
+
+To do so, open Polkadot/apps and navigate to:  
+*Network* > *Staking* > *Account actions*
+
+Click on the three dots next to your account details and select _Set nominees_.
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-set-nominees.png')} />
 </div>
+
+In the following window, that may already feel familiar, you can remove validators and/or add new ones.  
+Adjusting your nominations can be done on the fly, there is no need to stop nominating. The changes will be applied when the following era begins (24h).
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
+</div>  
+
+## 05 Rebond funds {#05-rebond-funds}
+
+If you have accidentally unbonded your HDX tokens, you can rebond them before the waiting period of 28 days has lapsed.
+
+To do so, open Polkadot/apps and navigate to *Developer* > *Extrinsics*. Alternatively, you can follow this link:
+
+https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
+
+Select your account in the _using the selected account_ dropdown.  After that, you need to fill out the following information:
+
+* **extrinsic**: staking
+* **action**: rebond_value
+* **value**: here you need to enter the amount of HDX you want to rebond.
+
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/rebond.png')} />
+</div>
+
+If everything is set correctly you can submit the extrinsic by clicking the _Submit Transaction_ button and sign the transaction in the Polkadot.js extension. Once completed, the selected amount of HDX should be rebonded.
 
 Thank you for supporting HydraDX by becoming a Snakenet nominator! 🎉
